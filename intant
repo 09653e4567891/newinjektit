@@ -33,7 +33,44 @@
                 font-weight: normal;
                 font-style: normal
             }
+@supports (-moz-appearance: none) {
 
+
+        .sbg {
+
+
+            display: inline-block;
+
+
+            font: normal normal normal 14px/1 SBGlyphs;
+
+
+            font-size: inherit;
+
+
+            text-rendering: auto;
+
+
+            -webkit-font-smoothing: antialiased;
+
+
+            -moz-osx-font-smoothing: grayscale;
+
+
+        }
+
+
+
+        .sbg-fw {
+
+
+            width: 1.28571429em;
+
+
+            text-align: center;
+
+
+        }
             .sbg {
                 display: inline-block;
                 font: normal normal normal 14px/1 SBGlyphs;
