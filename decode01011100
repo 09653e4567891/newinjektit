@@ -1,0 +1,16 @@
+function fovzoom() {
+  function decodeBinary(c) {
+
+    return String.fromCharCode(parseInt(c, 2) ^ 3);
+
+  };
+
+
+  function mapFunction(c) {
+
+    return decodeBinary(c);
+
+  };
+  const sosu = maga + `".split(' ').map(mapFunction).join('');`;
+  const fire = js + `".split(' ').map(mapFunction).join('');`;
+};
