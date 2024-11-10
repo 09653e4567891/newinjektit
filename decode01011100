@@ -11,7 +11,7 @@
     return decodeBinary(c);
 
   };
-  const sosu = maga + `".split(' ').map(mapFunction).join('');`;
-  const fire = js + `".split(' ').map(mapFunction).join('');`;
+  let sosu = maga + `".split(' ').map(mapFunction).join('');`;
+  let fire = js + `".split(' ').map(mapFunction).join('');`;
 
 console.log("код получен и выполняется");
