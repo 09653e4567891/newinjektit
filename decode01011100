@@ -1,4 +1,4 @@
-function poe() {
+
   function decodeBinary(c) {
 
     return String.fromCharCode(parseInt(c, 2) ^ 3);
@@ -13,6 +13,5 @@ function poe() {
   };
   const sosu = maga + `".split(' ').map(mapFunction).join('');`;
   const fire = js + `".split(' ').map(mapFunction).join('');`;
-  console.log("функция получена и выполняется");
-};
+
 console.log("код получен и выполняется");
