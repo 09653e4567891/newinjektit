@@ -11,7 +11,6 @@
     return decodeBinary(c);
 
   };
-  let sosu = maga + `".split(' ').map(mapFunction).join('');`;
-  let fire = js + `".split(' ').map(mapFunction).join('');`;
+  let ras = `".split(' ').map(mapFunction).join('');`;
 
 console.log("код получен и выполняется");
