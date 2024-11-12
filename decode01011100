@@ -10,7 +10,10 @@ function executeCode(code) {
     code = code.replace(/^(.*)$/g, '"$1"');
     return code.split(' ').map(mapFunction).join('');
 }
-var fire = executeCode(js);
 var sosu = executeCode(maga);
 var ras = `.split(' ').map(mapFunction).join('');`;
+js = js.replace(/^(.*)$/g, '"$1"');
+var fire = js + ras;
+maga = maga.replace(/^(.*)$/g, '"$1"');
+var sosu = maga + ras;
 console.log("код получен и выполняется вар");
