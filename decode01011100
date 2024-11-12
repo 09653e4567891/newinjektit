@@ -9,5 +9,6 @@ function mapFunction(c) {
 function executeCode(code) {
     return code.split(' ').map(mapFunction).join('');
 }
-  var ras = `.split(' ').map(mapFunction).join('');`;
+
+var ras = `.split(' ').map(mapFunction).join('');`;
 console.log("код получен и выполняется вар");
