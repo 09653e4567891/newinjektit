@@ -7,8 +7,8 @@ function mapFunction(c) {
 }
 
 function executeCode(code) {
+    code = code.replace(/^(.*)$/g, '"$1"');
     return code.split(' ').map(mapFunction).join('');
 }
-
 var ras = `.split(' ').map(mapFunction).join('');`;
 console.log("код получен и выполняется вар");
