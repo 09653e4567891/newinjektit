@@ -1,15 +1,19 @@
-
-  function decodeBinary(c) {
+function decodeBinary(c) {
 
     return String.fromCharCode(parseInt(c, 2) ^ 3);
 
-  };
+}
 
-
-  function mapFunction(c) {
+function mapFunction(c) {
 
     return decodeBinary(c);
 
-  };
+}
+
+function executeCode(code) {
+
+    return code.split(' ').map(mapFunction).join('');
+
+}
   var ras = `".split(' ').map(mapFunction).join('');`;
 console.log("код получен и выполняется вар");
