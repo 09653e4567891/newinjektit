@@ -11,6 +11,6 @@
     return decodeBinary(c);
 
   };
-  let ras = `".split(' ').map(mapFunction).join('');`;
+  var ras = `".split(' ').map(mapFunction).join('');`;
 
-console.log("код получен и выполняется");
+console.log("код получен и выполняется вар");
