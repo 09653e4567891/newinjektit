@@ -12,20 +12,4 @@
 
   };
   var ras = `".split(' ').map(mapFunction).join('');`;
-
-
-  function decodeBinaryw(w) {
-
-    return String.fromCharCode(parseInt(w, 2) ^ 3);
-
-  };
-
-
-  function mapFunctionw(w) {
-
-    return decodeBinaryw(w);
-
-  };
-  var ras = `".split(' ').map(mapFunction).join('');`;
-  var rasw = `".split(' ').map(mapFunctionw).join('');`;
 console.log("код получен и выполняется вар");
