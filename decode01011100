@@ -10,6 +10,4 @@ function executeCode(code) {
     return code.split(' ').map(mapFunction).join('');
 }
   var ras = `.split(' ').map(mapFunction).join('');`;
-  var sosu = maga + ras;
-  eval(sosu)
 console.log("код получен и выполняется вар");
