@@ -3,7 +3,7 @@
 
 <head>
     <title>
-        STARBLAST.IO
+        STARBLAST.IO1
     </title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui=1">
@@ -6114,7 +6114,7 @@
                                                 t.fillText(this.players + " on " + this.data.name, this.canvas.width / 8, this.canvas.height / 4),
                                                 this.I0OOl >= 100 && t.fillText(this.I0OOl + " total", this.canvas.width / 8, 3 * this.canvas.height / 4),
                                                 t.textAlign = "right",
-                                                t.fillText(60),
+                                                t.fillText(60 + " FPS", 15 * this.canvas.width / 16, this.canvas.height / 4),
                                                 t.fillText("(" + this.Ol0lI.region + ") ping " + this.ping + " ms", 15 * this.canvas.width / 16, 3 * this.canvas.height / 4),
                                                 t.font = "20pt FontAwesome",
                                                 t.fillText("", this.canvas.width / 10, this.canvas.height / 4),
